@@ -1,0 +1,13 @@
+include LICENSE
+include README.md
+include CHANGELOG.md
+recursive-include tests *
+recursive-include tutorials *
+recursive-include reson/resources *
+include reson/reporting/common/gunzip_sync.js
+prune reson/resources/single_report/node_modules
+prune reson/resources/compare_report/node_modules
+prune reson/resources/leaderboard_report/node_modules
+prune reson/resources/single_report/build
+prune reson/resources/compare_report/build
+prune reson/resources/leaderboard_report/build

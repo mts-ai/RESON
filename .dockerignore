@@ -1,0 +1,23 @@
+.git
+.gitignore
+.venv
+**/__pycache__
+**/*.py[cod]
+*.egg-info
+build
+dist
+.DS_Store
+.vscode
+.idea
+.pytest_cache
+.mypy_cache
+.ruff_cache
+
+# Local artifacts and large data — mount at runtime instead
+artifacts
+datasets
+
+# Frontend caches (rebuilt inside the image)
+**/node_modules
+reson/resources/*/build
+reson/resources/*/.vite
