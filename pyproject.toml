@@ -1,0 +1,53 @@
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "reson"
+version = "1.0.0"
+description = "Research Engine for Speech & Observation Notes"
+readme = "README.md"
+authors = ["MWS AI"]
+license = "MIT"
+packages = [{ include = "reson" }]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+pandas = ">=2.0"
+numpy = ">=1.23"
+scikit-learn = ">=1.2"
+typer = ">=0.9"
+rich = ">=13"
+jinja2 = ">=3"
+plotly = ">=5"
+seaborn = ">=0.13"
+matplotlib = ">=3.7"
+statsmodels = ">=0.14"
+nbformat = ">=5.8"
+omegaconf = ">=2.3"
+jiwer = ">=3.0"
+tqdm = ">=4.66.1"
+
+[tool.poetry.scripts]
+reson = "reson.cli:main"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8.0"
+pytest-cov = ">=5.0"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = [
+    "frontend: requires prebuilt single/compare/leaderboard report frontend assets",
+]
+
+[tool.coverage.run]
+source = ["reson"]
+omit = [
+    "reson/resources/*",
+]
+
+[tool.coverage.report]
+fail_under = 75
+show_missing = true

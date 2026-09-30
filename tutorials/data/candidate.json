@@ -1,0 +1,16 @@
+{"audio_filepath": "/audio/001.wav", "duration": 2.1, "text": "Привет, как дела?", "prediction": "привет как дела"}
+{"audio_filepath": "/audio/002.wav", "duration": 4.9, "text": "Соедините с оператором, пожалуйста", "prediction": "соедините с оператором пожалуйста"}
+{"audio_filepath": "/audio/003.wav", "duration": 6.0, "text": "Мне не пришла смс с кодом", "prediction": "мне не пришла смс с кодом"}
+{"audio_filepath": "/audio/004.wav", "duration": 12.3, "text": "Проблема с интернетом дома", "prediction": "проблема с интернетом дома"}
+{"audio_filepath": "/audio/005.wav", "duration": 28.7, "text": "Проверьте баланс на номере 9151234567", "prediction": "проверьте баланс на номере 9151234567"}
+{"audio_filepath": "/audio/006.wav", "duration": 31.2, "text": "Хочу подключить тариф Смарт Мини", "prediction": "хочу подключить тариф смарт мини"}
+{"audio_filepath": "/audio/007.wav", "duration": 3.7, "text": "кион кион кион", "prediction": "кион кион кион"}
+{"audio_filepath": "/audio/008.wav", "duration": 8.4, "text": "ёлка зелёная и ёж", "prediction": "елка зеленая и еж"}
+{"audio_filepath": "/audio/009.wav", "duration": 15.0, "text": "заказ номер 12345 отменить", "prediction": "заказ номер 12345 отменить"}
+{"audio_filepath": "/audio/010.wav", "duration": 2.9, "text": "чем могу помочь?", "prediction": "чем могу помочь"}
+{"audio_filepath": "/audio/011.wav", "duration": 5.1, "text": "перезвоните мне завтра в 9:00", "prediction": "перезвоните мне завтра в 9:00"}
+{"audio_filepath": "/audio/012.wav", "duration": 35.0, "text": "скидка действует до конца недели проверьте условия", "prediction": "скидка действует до конца недели проверьте условия"}
+{"audio_filepath": "/audio/013.wav", "duration": 7.5, "text": "Hello, проверка качества распознавания", "prediction": "hello проверка качества распознавания"}
+{"audio_filepath": "/audio/014.wav", "duration": 4.0, "text": "вызвать мастера на дом", "prediction": "вызвать мастера на дом"}
+{"audio_filepath": "/audio/015.wav", "duration": 25.0, "text": "сменить адрес доставки на Тверская 7", "prediction": "сменить адрес доставки на тверская 7"}
+{"audio_filepath": "/audio/016.wav", "duration": 40.0, "text": "длинная фраза для тестирования сегмента long с паузами мм", "prediction": "длинная фраза для тестирования сегмента long с паузами мм"}

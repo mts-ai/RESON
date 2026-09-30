@@ -1,0 +1,29 @@
+:root {
+  --reson-accent: #8b5cf6;
+  --reson-accent-dark: #6d28d9;
+  --reson-accent-light: #a78bfa;
+
+  --reson-bg-light: #f5f7fa;
+  --reson-bg-dark: #0f1117;
+  --reson-surface-light: #ffffff;
+  --reson-surface-dark: #1a1d24;
+  --reson-surface-muted-light: #f3f4f6;
+  --reson-surface-muted-dark: #23262f;
+  --reson-border-light: #e5e7eb;
+  --reson-border-dark: #2a2d35;
+
+  --reson-text-primary-light: #111827;
+  --reson-text-primary-dark: #ffffff;
+  --reson-text-secondary-light: #4b5563;
+  --reson-text-secondary-dark: #9ca3af;
+  --reson-text-muted-light: #6b7280;
+  --reson-text-muted-dark: #6b7280;
+
+  --reson-font-page-title: 1.875rem;
+  --reson-font-section: 1.25rem;
+  --reson-font-body: 0.875rem;
+  --reson-font-caption: 0.75rem;
+  --reson-font-metric: 1.5rem;
+  --reson-line-tight: 1.25;
+  --reson-line-normal: 1.5;
+}
